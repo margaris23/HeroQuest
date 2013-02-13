@@ -1,9 +1,8 @@
 package com.nima;
 
-public class Weapon {
+public class Weapon extends Item{
 	public enum Type {
-		BROADSWORD, SHORTSWORD, DAGGER, STAFF
+		MELEE, RANGE
 	}
-
 	private Type type;	
 }

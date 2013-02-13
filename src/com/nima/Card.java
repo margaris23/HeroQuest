@@ -8,4 +8,6 @@ public class Card {
 
 	private Type type;
 	
+	private String title;
+	private String text;
 }
