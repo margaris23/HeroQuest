@@ -5,6 +5,5 @@ public class Weapon {
 		BROADSWORD, SHORTSWORD, DAGGER, STAFF
 	}
 
-	private Type type;
-	
+	private Type type;	
 }

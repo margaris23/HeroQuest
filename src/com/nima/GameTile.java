@@ -6,4 +6,5 @@ public class GameTile {
 	}
 
 	private Type type;
+	private Object roomId;
 }

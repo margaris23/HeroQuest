@@ -5,6 +5,5 @@ public class Spell {
 		FIRE, WATER, AIR, EARTH, CHAOS		
 	}
 
-	private School school;
-	
+	private School school;	
 }
