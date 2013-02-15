@@ -1,8 +1,11 @@
 package com.nima;
 
-public class Monster {
-	private Object movePoints;
-	private Object attack;
-	private String name;
-	private Object icon;	
+public class Monster extends Pawn {
+	
+	public void move(int movePoints) {				
+	}
+
+	public void attack(Pawn other) {		
+	}
+			
 }
