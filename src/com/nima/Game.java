@@ -18,4 +18,8 @@ public class Game {
 	public Pawn whoIsNext(){
 		return null;
 	}
+
+	public void createPlayers(){
+		//commit from android
+	}
 }
