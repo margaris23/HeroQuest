@@ -16,8 +16,8 @@ public class Hero extends Pawn {
 	private HERO_RACE race;
 
 	private Weapon weapon;
-	private Armour armour;
-	private List<Spell> spells = new ArrayList<Spell>();	
+	private List<Armour> armour = new ArrayList<Armour>();
+	private List<Spell> spells = new ArrayList<Spell>();
 	private int gold;
 	
 	private List<Item> items = new ArrayList<Item>();
@@ -34,10 +34,12 @@ public class Hero extends Pawn {
 		this._class = heroClass;
 	}
 	
-	public void move(int movePoints) {
+	public boolean move(int movePoints) {
+		return false;
 	}
 
-	public void attack(Pawn other) {
+	public boolean attack(Pawn other) {
+		return false;
 	}
 	
 

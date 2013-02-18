@@ -2,10 +2,12 @@ package com.nima;
 
 public class Monster extends Pawn {
 	
-	public void move(int movePoints) {				
+	public boolean move(int movePoints) {
+		return false;
 	}
 
-	public void attack(Pawn other) {		
+	public boolean attack(Pawn other) {
+		return false;
 	}
 			
 }
