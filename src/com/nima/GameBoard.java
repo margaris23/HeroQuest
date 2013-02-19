@@ -7,7 +7,7 @@ public class GameBoard {
 	private GameTile[][] tiles = new GameTile[VMAX][HMAX];
 	
 	public void configure(char[] bitmap) throws Exception{
-		if(bitmap.length > VMAX * HMAX){
+		if(bitmap.length != VMAX * HMAX){
 			throw new Exception();
 		}
 		int row = 0, col = 0;		

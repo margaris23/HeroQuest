@@ -26,6 +26,7 @@ public class Game {
 	public int getMaxNumberOfHeroes(){
 		return maxNumberOfHeroes;
 	}
+	
 	public void begin(){		
 	}
 	
