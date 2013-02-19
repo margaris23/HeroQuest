@@ -7,7 +7,7 @@ public abstract class Pawn {
 	private STATE currentState;
 	
 	protected String name;
-	protected int movePoints;
+	protected int moveDice;
 	
 	protected int attackDice;
 	protected int defendDice;
@@ -23,11 +23,11 @@ public abstract class Pawn {
 	public String getName(){
 		return name;
 	}
-	public int getMovePoints() {
-		return movePoints;
+	public int getMoveDice() {
+		return moveDice;
 	}
-	public void setMovePoints(int movePoints) {
-		this.movePoints = movePoints;
+	public void setMoveDice(int moveDices) {
+		this.moveDice = moveDice;
 	}
 	public int getAttackDice() {
 		return attackDice;

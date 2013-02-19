@@ -15,13 +15,11 @@ public class HeroQuest {
 		Properties config = getProperties("src/com/nima/conf.hq");
 
 		//create new game
-		Game game = new Game();
+		Game game = new Game(2);
 		
 		//Prepare Board with a quest
-		Properties questProps = getProperties("src/com/nima/quest1.hq");
-		try{
-			game.startQuest(questProps.getProperty("name"), questProps.getProperty("map"), 
-					questProps.getProperty("text"), questProps.getProperty("notes"));
+		try{			
+			game.startQuest(getProperties("src/com/nima/quest1.hq"));
 		}catch(Exception e){
 			e.printStackTrace();
 		}

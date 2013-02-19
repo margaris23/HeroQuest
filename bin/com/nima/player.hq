@@ -1,0 +1,13 @@
+name=MasDarius
+gold=100
+heroes=1
+hero.1.name=Conan
+hero.1.race=H
+hero.1.class=B
+hero.1.rank=H
+hero.1.quests_completed=0
+hero.1.base_attack=3
+hero.1.base_defend=2
+hero.1.base_move=2
+hero.1.base_body=8
+hero.1.base_mind=2

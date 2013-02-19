@@ -5,6 +5,7 @@ public class Quest {
 	private static String map;
 	private static String notes;
 	private static String name;
+	private static int numberOfMonsters;
 	
 	public Quest(String name, String map, String text, String notes){
 		this.name = name;
@@ -27,5 +28,13 @@ public class Quest {
 
 	public static String getName() {
 		return name;
-	}			
+	}
+	
+	public static int getNumberOfMonsters() {
+		return numberOfMonsters;
+	}
+
+	public static void setNumberOfMonsters(int numberOfMonsters) {
+		Quest.numberOfMonsters = numberOfMonsters;
+	}
 }
